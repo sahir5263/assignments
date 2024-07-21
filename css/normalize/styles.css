@@ -1,0 +1,149 @@
+/* Shrey Ahir 8975263 */
+
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #bcbcbc;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#top {
+    background-color: grey;
+}
+
+header {
+    background-color: grey;
+}
+
+
+main {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+img {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #080606;
+    background-color: #fff;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #100c0c;
+    text-align: left;
+    clear: both;
+    margin-top: 0.5rem; 
+}
+
+#quotes {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    border: 0.2rem solid #0e0a0a;
+    box-shadow: 2px 2px 5px #aaa;
+    padding: 0.5rem;
+}
+
+#Videos {
+    border: 0.2rem solid #ddd;
+    border-radius: 0.5rem;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 0.5rem;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    text-align: center;
+    font-variant: small-caps;
+    color: #333;
+    width: 58%;
+    padding: 0.5rem;
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1e3c72;
+    line-height: 2rem;
+}
+
+ul li a:hover {
+    color: #2a5298;
+}
+
+
+div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 60%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 1px solid #0b0c0b;
+}
+footer {
+    color: white;
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: black;
+    
+}
+@media (max-width: 768px) {
+html {
+    font-size: 16px; 
+}
+
+main {
+    float: none; 
+    width: 100%; 
+}
+
+aside {
+    float: none; 
+    width: 100%; 
+}
+}
